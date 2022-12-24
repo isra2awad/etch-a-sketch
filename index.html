@@ -13,16 +13,18 @@
         <h1>SketchPad</h1>
          <div class="header">
             <h6>Select the Size </h6>
-            <button id="popup" class="btn btn-danger">Select</button>
-         </div>   
-        <div class="board"></div>
+            <button id="popup" class="btn btn-danger" >Select</button>
+         </div> 
+         <p id="message"></p>  
+         <div class="board"></div>
                 
-        <div class="footer">
-             <button class="btn btn-dark">Black</button>
+         <div class="footer">
+             <button class="btn btn-dark" onClick="setColor('black')">Black</button>
                  
-             <button class="btn btn-warning">Random</button>
-             <button class="btn btn-primary">Reset</button>
+             <button class="btn btn-warning" onClick="setColor('random')">Random</button>
+             <button class="btn btn-primary" onClick="resetBoard()">Reset</button>
         </div>
+
                 
                  
                
